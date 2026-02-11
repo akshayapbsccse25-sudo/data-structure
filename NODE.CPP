@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<conio.h>
 
 struct Node{
 int data;
@@ -83,6 +84,7 @@ if(head==NULL) {
 
   head = delete_Node(head,20);
   traverse(head);
-
+  getch();
   return 0;
+
  }
